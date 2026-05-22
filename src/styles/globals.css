@@ -1,0 +1,318 @@
+/* ============================================================
+   VJS Orbit — Global Styles & Design System
+   ============================================================ */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap');
+
+/* Tailwind CSS v4 */
+@import "tailwindcss";
+
+/* ============================================================
+   Custom Theme Configuration (Tailwind v4)
+   ============================================================ */
+@theme {
+  --color-primary: #0A0F2E;
+  --color-primary-light: #1B2459;
+  --color-primary-medium: #0D3B6E;
+  --color-accent: #F5A623;
+  --color-accent-hover: #E6991A;
+  --color-accent-2: #00C9A7;
+  --color-accent-2-hover: #00B396;
+  --color-bg: #F7F8FC;
+  --color-surface: #FFFFFF;
+  --color-text-main: #1A1A2E;
+  --color-muted: #6B7280;
+  --color-muted-light: #9CA3AF;
+
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+}
+
+/* ============================================================
+   CSS Custom Properties (for non-Tailwind usage)
+   ============================================================ */
+:root {
+  --primary: #0A0F2E;
+  --primary-light: #1B2459;
+  --primary-medium: #0D3B6E;
+  --accent: #F5A623;
+  --accent-hover: #E6991A;
+  --accent-glow: rgba(245, 166, 35, 0.3);
+  --accent-2: #00C9A7;
+  --accent-2-hover: #00B396;
+  --accent-2-glow: rgba(0, 201, 167, 0.3);
+  --bg: #F7F8FC;
+  --surface: #FFFFFF;
+  --text: #1A1A2E;
+  --muted: #6B7280;
+
+  /* Gradients */
+  --gradient-hero: linear-gradient(135deg, #0A0F2E 0%, #1B2459 50%, #0D3B6E 100%);
+  --gradient-accent: linear-gradient(135deg, #F5A623 0%, #F7B84E 100%);
+  --gradient-accent-2: linear-gradient(135deg, #00C9A7 0%, #00E4BF 100%);
+  --gradient-cta: linear-gradient(135deg, #0A0F2E 0%, #00C9A7 100%);
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(10, 15, 46, 0.06);
+  --shadow-md: 0 4px 20px rgba(10, 15, 46, 0.08);
+  --shadow-lg: 0 8px 40px rgba(10, 15, 46, 0.12);
+  --shadow-xl: 0 16px 60px rgba(10, 15, 46, 0.16);
+  --shadow-glow-amber: 0 0 30px rgba(245, 166, 35, 0.25);
+  --shadow-glow-teal: 0 0 30px rgba(0, 201, 167, 0.25);
+
+  /* Spacing */
+  --section-padding: clamp(4rem, 8vw, 8rem);
+  --container-max: 1280px;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+}
+
+/* ============================================================
+   Base Resets & Defaults
+   ============================================================ */
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: var(--font-body);
+    color: var(--text);
+    background-color: var(--bg);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    transition: color var(--transition-fast);
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  button {
+    font-family: var(--font-body);
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+
+  ::selection {
+    background-color: var(--accent);
+    color: var(--primary);
+  }
+}
+
+/* ============================================================
+   Animations
+   ============================================================ */
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  33% { transform: translateY(-10px) rotate(1deg); }
+  66% { transform: translateY(5px) rotate(-1deg); }
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(245, 166, 35, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(245, 166, 35, 0.6); }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes bounce-gentle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes orb-float-1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  25% { transform: translate(30px, -40px) scale(1.1); }
+  50% { transform: translate(-20px, -60px) scale(0.95); }
+  75% { transform: translate(40px, -20px) scale(1.05); }
+}
+
+@keyframes orb-float-2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  25% { transform: translate(-40px, 30px) scale(1.05); }
+  50% { transform: translate(50px, -30px) scale(1.1); }
+  75% { transform: translate(-20px, 50px) scale(0.95); }
+}
+
+@keyframes orb-float-3 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(60px, 20px) scale(1.15); }
+  66% { transform: translate(-30px, -40px) scale(0.9); }
+}
+
+@keyframes scroll-indicator {
+  0% { opacity: 0; transform: translateY(-8px); }
+  50% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(8px); }
+}
+
+@keyframes whatsapp-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5); }
+  70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Utility Animation Classes */
+.animate-float { animation: float 6s ease-in-out infinite; }
+.animate-float-slow { animation: float-slow 8s ease-in-out infinite; }
+.animate-pulse-glow { animation: pulse-glow 2s ease-in-out infinite; }
+.animate-marquee { animation: marquee 30s linear infinite; }
+.animate-bounce-gentle { animation: bounce-gentle 2s ease-in-out infinite; }
+.animate-whatsapp-pulse { animation: whatsapp-pulse 2s infinite; }
+.animate-gradient-shift { 
+  background-size: 200% 200%;
+  animation: gradient-shift 6s ease infinite; 
+}
+.animate-spin-slow { animation: spin-slow 20s linear infinite; }
+
+/* ============================================================
+   Glass Morphism
+   ============================================================ */
+.glass {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.glass-light {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.glass-dark {
+  background: rgba(10, 15, 46, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* ============================================================
+   Text Gradients
+   ============================================================ */
+.text-gradient-amber {
+  background: linear-gradient(135deg, #F5A623 0%, #F7B84E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-teal {
+  background: linear-gradient(135deg, #00C9A7 0%, #00E4BF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ============================================================
+   Noise Overlay
+   ============================================================ */
+.noise-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* ============================================================
+   Scroll Progress Bar
+   ============================================================ */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: var(--gradient-accent);
+  z-index: 9999;
+  transition: width 100ms linear;
+}
+
+/* ============================================================
+   Custom Scrollbar
+   ============================================================ */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--accent), var(--accent-2));
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* ============================================================
+   Responsive
+   ============================================================ */
+@media (max-width: 768px) {
+  :root {
+    --section-padding: clamp(3rem, 6vw, 5rem);
+  }
+}

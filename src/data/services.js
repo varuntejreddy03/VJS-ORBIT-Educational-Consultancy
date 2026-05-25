@@ -43,14 +43,14 @@ export const services = [
   },
   {
     id: 4,
-    title: 'IELTS / APS Guidance',
+    title: 'IELTS & Test Prep',
     icon: 'BookOpen',
-    description: 'Specialized coaching for language proficiency tests and Germany\'s APS verification process.',
+    description: 'Specialized coaching for language proficiency tests (IELTS, TOEFL, PTE) and standardized academic exams.',
     details: [
-      'IELTS / TOEFL preparation',
-      'APS application support',
-      'Document attestation guidance',
-      'Interview coaching for APS',
+      'IELTS & TOEFL preparation',
+      'PTE Academic training',
+      'Study plans & practice resources',
+      'Mock tests & score analysis',
       'Test booking assistance'
     ],
     color: 'teal'

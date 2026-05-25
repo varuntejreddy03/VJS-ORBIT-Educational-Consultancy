@@ -83,6 +83,11 @@ export const timelineSteps = [
     step: 6,
     title: 'Pre-Departure Briefing',
     description: 'Get ready for your journey with accommodation help, travel tips, cultural orientation, and connections to student communities.'
+  },
+  {
+    step: 7,
+    title: 'Accommodation Guidance',
+    description: "We help you find safe, affordable, and convenient housing near your university — from student dorms to private apartments, we've got you covered."
   }
 ];
 
@@ -101,22 +106,6 @@ export const examTypes = [
       'Focus on time management in Reading and Writing',
       'Record yourself speaking for self-assessment',
       'Read English newspapers daily for vocabulary building'
-    ]
-  },
-  {
-    id: 'aps',
-    name: 'APS',
-    fullName: 'Akademische Prüfstelle (Academic Evaluation Centre)',
-    description: 'Mandatory verification for Indian students applying to German universities. Verifies academic credentials.',
-    sections: ['Document Verification', 'Academic Interview'],
-    duration: '20-30 minutes (interview)',
-    scoring: 'Pass/Fail',
-    requiredScore: 'Pass certificate required',
-    tips: [
-      'Know your academic subjects thoroughly',
-      'Prepare for questions about your thesis/projects',
-      'Be ready to explain concepts from your degree',
-      'Carry all original documents and attested copies'
     ]
   },
   {

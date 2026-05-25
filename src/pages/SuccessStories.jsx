@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { Quote, Star, Users, Globe, CheckCircle, ArrowRight, MapPin } from 'lucide-react'
@@ -31,19 +32,20 @@ export default function SuccessStories() {
             <span className="text-[#00C9A7]">Success Stories</span>
           </motion.div>
           <motion.h1 {...fadeInUp} transition={{ delay: 0.1 }} className="text-4xl sm:text-5xl lg:text-6xl font-['Syne'] font-bold text-white mb-6">
-            Success <span className="text-gradient-teal">Stories</span>
+            From India to the <span className="text-gradient-teal">World 🌍</span>
           </motion.h1>
           <motion.p {...fadeInUp} transition={{ delay: 0.2 }} className="text-xl text-gray-300 max-w-2xl mx-auto mb-10">
-            Real students, real results — hear from those who achieved their study abroad dreams
+            Real students, real results — hear from those who achieved their global dreams with VJS Abroad Consultancy
           </motion.p>
-          <motion.div {...fadeInUp} transition={{ delay: 0.3 }} className="flex flex-wrap items-center justify-center gap-8">
+          <motion.div {...fadeInUp} transition={{ delay: 0.3 }} className="flex flex-wrap items-center justify-center gap-6">
             {[
               { num: '500+', label: 'Students Placed' },
-              { num: '15+', label: 'Countries' },
+              { num: '150+', label: 'To Germany', highlight: true },
+              { num: '10+', label: 'Cities in India' },
               { num: '98%', label: 'Visa Rate' },
             ].map((stat) => (
-              <div key={stat.label} className="text-center">
-                <div className="text-3xl font-['Space_Mono'] font-bold text-[#F5A623]">{stat.num}</div>
+              <div key={stat.label} className={`text-center min-w-[120px] p-4 rounded-xl ${stat.highlight ? 'bg-white/10 border border-[#F5A623]/30 px-6 shadow-lg shadow-[#F5A623]/10' : 'bg-white/5'}`}>
+                <div className={`text-3xl font-['Space_Mono'] font-bold ${stat.highlight ? 'text-[#F5A623]' : 'text-[#00C9A7]'}`}>{stat.num}</div>
                 <div className="text-sm text-gray-400">{stat.label}</div>
               </div>
             ))}
@@ -121,20 +123,7 @@ export default function SuccessStories() {
         </div>
       </section>
 
-      {/* Share Story */}
-      <section className="py-16 bg-[#F7F8FC]">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <motion.div {...fadeInUp} className="bg-white rounded-2xl p-10 border border-gray-100 shadow-md">
-            <h3 className="text-2xl font-['Syne'] font-bold text-[#1A1A2E] mb-4">Share Your Story</h3>
-            <p className="text-[#6B7280] mb-6">
-              Are you a VJS Orbit alumnus? We'd love to hear about your experience and share it with future students!
-            </p>
-            <Button to="/contact" variant="secondary" size="md">
-              Share Your Experience <ArrowRight size={16} />
-            </Button>
-          </motion.div>
-        </div>
-      </section>
+
 
       {/* CTA */}
       <section className="py-20" style={{ background: 'linear-gradient(135deg, #0A0F2E 0%, #00C9A7 100%)' }}>
@@ -143,7 +132,7 @@ export default function SuccessStories() {
             Ready to Write Your Own Success Story?
           </motion.h2>
           <motion.p {...fadeInUp} transition={{ delay: 0.1 }} className="text-lg text-gray-300 mb-8">
-            Join 500+ students who've achieved their study abroad dreams with VJS Orbit
+            Join 500+ students who've achieved their dreams with VJS Abroad Consultancy
           </motion.p>
           <motion.div {...fadeInUp} transition={{ delay: 0.2 }}>
             <Button to="/contact" variant="primary" size="lg">Book Free Consultation</Button>
@@ -153,3 +142,5 @@ export default function SuccessStories() {
     </motion.div>
   )
 }
+
+

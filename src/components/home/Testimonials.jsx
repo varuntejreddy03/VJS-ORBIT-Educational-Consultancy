@@ -157,7 +157,7 @@ export default function Testimonials() {
             title="What Our"
             highlight="Students Say"
             highlightColor="teal"
-            subtitle="Hear from students who achieved their study abroad dreams with VJS Orbit"
+            subtitle="Hear from students who achieved their dreams with VJS Abroad Consultancy"
           />
         </div>
 

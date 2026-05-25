@@ -1,6 +1,17 @@
 import { motion } from 'framer-motion'
+import { MessageSquare, ClipboardCheck, GraduationCap, FileText, FileCheck, Plane, Building2 } from 'lucide-react'
 import SectionHeading from '../ui/SectionHeading'
 import { timelineSteps } from '../../data/universities'
+
+const iconMap = {
+  1: MessageSquare,
+  2: ClipboardCheck,
+  3: GraduationCap,
+  4: FileText,
+  5: FileCheck,
+  6: Plane,
+  7: Building2
+}
 
 const containerVariants = {
   hidden: {},
@@ -39,6 +50,7 @@ const circleVariants = {
 }
 
 function TimelineCard({ step }) {
+  const IconComponent = iconMap[step.step]
   return (
     <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100 group">
       <div className="flex items-center gap-3 mb-3">
@@ -46,6 +58,7 @@ function TimelineCard({ step }) {
           Step {step.step}
         </span>
         <div className="h-px flex-1 bg-gradient-to-r from-[#F5A623]/30 to-transparent" />
+        {IconComponent && <IconComponent className="w-5 h-5 text-[#F5A623] group-hover:scale-110 transition-transform duration-300" />}
       </div>
       <h3 className="font-['Syne'] font-bold text-lg text-[#1A1A2E] mb-2 group-hover:text-[#F5A623] transition-colors duration-300">
         {step.title}
@@ -86,7 +99,7 @@ export default function Timeline() {
           title="Your Journey to"
           highlight="Success"
           highlightColor="amber"
-          subtitle="A proven 6-step process that has helped 500+ students achieve their dreams"
+          subtitle="A proven 7-step process that has helped 500+ students achieve their dreams"
         />
 
         <motion.div

@@ -41,30 +41,38 @@ export default function Footer() {
                     transform="rotate(60 20 20)" />
                 </svg>
               </div>
-              <span className="text-white font-[Syne] font-bold text-xl tracking-wider">VJS ORBIT</span>
+              <span className="text-white font-[Syne] font-bold text-xl tracking-wider">VJS ABROAD</span>
             </Link>
             <p className="text-[#F5A623] font-[Syne] font-semibold text-sm mb-2">
               Your Global Journey Begins Here 🌍
             </p>
-            <p className="text-sm text-gray-400 mb-1 italic">Vision. Journey. Success.</p>
+            <p className="text-sm text-gray-400 mb-1 italic">Vision, Journey, Success</p>
             <p className="text-sm text-gray-400 mb-6 leading-relaxed">
-              Empowering students to achieve their dreams of studying abroad with personalized guidance and expert support.
+              Empowering you to achieve your dreams of studying, working, and relocating abroad with personalized guidance and expert support.
             </p>
             <div className="flex items-center gap-3">
-              {[
-                { icon: FaFacebookF, href: '#', label: 'Facebook' },
-                { icon: FaInstagram, href: '#', label: 'Instagram' },
-                { icon: FaLinkedinIn, href: '#', label: 'LinkedIn' },
-              ].map((social) => (
-                <a
-                  key={social.label}
-                  href={social.href}
-                  aria-label={social.label}
-                  className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gray-400 hover:text-[#F5A623] hover:border-[#F5A623]/30 hover:bg-[#F5A623]/10 transition-all duration-300"
-                >
-                  <social.icon size={16} />
-                </a>
-              ))}
+              <a
+                href="#"
+                aria-label="Facebook"
+                className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gray-400 hover:text-[#F5A623] hover:border-[#F5A623]/30 hover:bg-[#F5A623]/10 transition-all duration-300"
+              >
+                <FaFacebookF size={16} />
+              </a>
+              <a
+                href="https://www.instagram.com/vjs_orbit?igsh=MWJ5NjRkdnJrNzFlYw=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-9 h-9 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center hover:scale-110 transition-transform"
+              >
+                <FaInstagram className="text-white text-sm" />
+              </a>
+              <a
+                href="#"
+                aria-label="LinkedIn"
+                className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gray-400 hover:text-[#F5A623] hover:border-[#F5A623]/30 hover:bg-[#F5A623]/10 transition-all duration-300"
+              >
+                <FaLinkedinIn size={16} />
+              </a>
             </div>
           </div>
 
@@ -129,24 +137,32 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <Phone size={16} className="text-[#00C9A7] mt-1 flex-shrink-0" />
                 <div className="text-sm space-y-1">
+                  <a href="tel:+4915560001143" className="text-gray-400 hover:text-[#00C9A7] transition-colors block font-semibold text-white">
+                    🇩🇪 +49 15560001143 (Primary — Germany)
+                  </a>
                   <a href="tel:+919347988545" className="text-gray-400 hover:text-[#00C9A7] transition-colors block">
-                    🇮🇳 +91 9347988545
+                    🇮🇳 +91 9347988545 (India)
                   </a>
                   <a href="tel:+4915511015290" className="text-gray-400 hover:text-[#00C9A7] transition-colors block">
-                    🇩🇪 +49 15511015290
+                    🇩🇪 +49 15511015290 (Germany)
                   </a>
                   <a href="tel:+4915510861137" className="text-gray-400 hover:text-[#00C9A7] transition-colors block">
-                    🇩🇪 +49 15510861137
+                    🇩🇪 +49 15510861137 (Germany)
                   </a>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin size={16} className="text-[#F5A623] mt-1 flex-shrink-0" />
-                <p className="text-sm text-gray-400">
-                  Ramgampeta Cross, Puthalapattu,<br />
-                  Chittoor 517124,<br />
+                <a
+                  href="https://www.google.com/maps/search/Ramgampeta+Cross+Puthalapattu+Chittoor+517124"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-gray-400 hover:text-[#F5A623] transition-colors"
+                >
+                  Ramgampeta Cross, Near Ramgampeta X Cross Junction,<br />
+                  Puthalapattu, Chittoor – 517124,<br />
                   Andhra Pradesh, India
-                </p>
+                </a>
               </div>
               <div className="flex items-start gap-3">
                 <Clock size={16} className="text-[#00C9A7] mt-1 flex-shrink-0" />
@@ -162,7 +178,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-500">
-            © 2026 VJS Orbit Educational Consultancy. All rights reserved.
+            © 2026 VJS Abroad Consultancy. All rights reserved.
           </p>
           <div className="flex items-center gap-6 text-sm text-gray-500">
             <a href="#" className="hover:text-gray-300 transition-colors">Privacy Policy</a>

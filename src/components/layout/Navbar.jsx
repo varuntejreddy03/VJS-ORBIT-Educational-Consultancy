@@ -77,10 +77,10 @@ export default function Navbar() {
             </div>
             <div className="flex flex-col">
               <span className="text-white font-[Syne] font-bold text-xl tracking-wider group-hover:text-[#F5A623] transition-colors">
-                VJS ORBIT
+                VJS ABROAD
               </span>
               <span className="text-[#9CA3AF] text-[10px] tracking-[0.2em] uppercase font-medium hidden sm:block">
-                Educational Consultancy
+                Abroad Consultancy
               </span>
             </div>
           </Link>
@@ -141,12 +141,17 @@ export default function Navbar() {
 
           {/* CTA + Mobile Toggle */}
           <div className="flex items-center gap-4">
-            <Link
-              to="/contact"
-              className="hidden md:inline-flex items-center px-6 py-2.5 bg-gradient-to-r from-[#F5A623] to-[#F7B84E] text-[#0A0F2E] font-semibold text-sm rounded-full hover:shadow-lg hover:shadow-[#F5A623]/25 transition-all duration-300 hover:-translate-y-0.5"
-            >
-              Free Consultation
-            </Link>
+            <div className="relative group hidden md:block">
+              <Link
+                to="/contact"
+                className="inline-flex items-center px-6 py-2.5 bg-gradient-to-r from-[#F5A623] to-[#F7B84E] text-[#0A0F2E] font-semibold text-sm rounded-full hover:shadow-lg hover:shadow-[#F5A623]/25 transition-all duration-300 hover:-translate-y-0.5"
+              >
+                Free Consultation
+              </Link>
+              <span className="absolute top-full left-1/2 -translate-x-1/2 mt-2 px-3 py-1.5 bg-[#0A0F2E] text-white text-xs font-medium rounded-lg shadow-xl border border-white/10 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-50">
+                Call/WhatsApp: +49 15560001143 📞
+              </span>
+            </div>
             <button
               onClick={() => setIsMobileOpen(!isMobileOpen)}
               className="lg:hidden text-white p-2 hover:bg-white/10 rounded-lg transition-colors"

@@ -75,7 +75,7 @@ export default function WhyChoose() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           title="Why Choose"
-          highlight="VJS Orbit"
+          highlight="VJS Abroad"
           highlightColor="teal"
           subtitle="Thousands of students trust us to navigate their global education journey with confidence and clarity."
         />

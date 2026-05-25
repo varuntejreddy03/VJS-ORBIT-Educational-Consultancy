@@ -132,7 +132,7 @@ export default function Hero() {
           className="mb-6"
         >
           <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[#F5A623]/40 bg-white/[0.06] backdrop-blur-xl text-white/90 text-xs sm:text-sm font-['DM_Sans'] font-semibold tracking-wide shadow-[0_0_20px_rgba(245,166,35,0.12)]">
-            🌍 Empowering Students Since 2024
+            ✨ Founders: Gundu Vinay Kumar • Jagadeesh Yeddalapudi • Sai Charan Yenugula
           </span>
         </motion.div>
 
@@ -164,8 +164,8 @@ export default function Hero() {
           animate="visible"
           custom={0.9}
         >
-          From Germany to the Globe — Personalized admissions, visa support, and
-          career guidance for ambitious students.
+          From Chittoor to the Globe — Study abroad, visa assistance,
+          accommodation guidance, and career support for your international journey.
         </motion.p>
 
         {/* CTA Buttons */}

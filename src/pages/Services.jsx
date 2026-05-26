@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import { GraduationCap, FileCheck, PenTool, BookOpen, Award, Plane, CheckCircle, ArrowRight, MessageSquare, Clock, Users } from 'lucide-react'
+import { GraduationCap, FileCheck, PenTool, BookOpen, Award, Plane, Home, CheckCircle, ArrowRight, MessageSquare, Clock, Users } from 'lucide-react'
 import SectionHeading from '../components/ui/SectionHeading'
 import Button from '../components/ui/Button'
 import { services } from '../data/services'
 
-const iconMap = { GraduationCap, FileCheck, PenTool, BookOpen, Award, Plane }
+const iconMap = { GraduationCap, FileCheck, PenTool, BookOpen, Award, Plane, Home }
 const fadeInUp = { initial: { opacity: 0, y: 30 }, whileInView: { opacity: 1, y: 0 }, viewport: { once: true }, transition: { duration: 0.6 } }
 
 const processSteps = [

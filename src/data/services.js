@@ -71,16 +71,30 @@ export const services = [
   },
   {
     id: 6,
-    title: 'Pre-Departure & Settlement',
-    icon: 'Plane',
-    description: 'Complete support from flight booking to your first week abroad — accommodation, banking, and orientation.',
+    title: 'Accommodation Support',
+    icon: 'Home',
+    description: 'End-to-end accommodation assistance — from finding student housing to signing your lease before you even land.',
     details: [
-      'Flight booking assistance',
-      'Accommodation search',
-      'Bank account setup guidance',
-      'City orientation briefing',
-      'Student community connections'
+      'Student dormitory applications',
+      'Private apartment search & shortlisting',
+      'Lease review & documentation help',
+      'City-wise housing cost guidance',
+      'Roommate matching & shared flats'
     ],
     color: 'teal'
+  },
+  {
+    id: 7,
+    title: 'Pre-Departure & Settlement',
+    icon: 'Plane',
+    description: 'Complete support from flight booking to your first week abroad — banking, orientation, and community connections.',
+    details: [
+      'Flight booking assistance',
+      'Bank account setup guidance',
+      'City orientation briefing',
+      'Student community connections',
+      'Local SIM & transport setup'
+    ],
+    color: 'amber'
   }
 ];

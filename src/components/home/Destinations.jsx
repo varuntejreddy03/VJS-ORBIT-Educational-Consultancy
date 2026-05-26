@@ -161,12 +161,40 @@ export default function Destinations() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <SectionHeading
-          title="Study"
-          highlight="Destinations"
+          title="Where Our Students"
+          highlight="Study"
           highlightColor="teal"
           light={true}
-          subtitle="Explore world-class education opportunities across the globe"
+          subtitle="Countries where we've successfully placed students"
         />
+
+        {/* Student Placement Stats */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="flex flex-wrap justify-center gap-4 sm:gap-6 mb-12"
+        >
+          {[
+            { flag: '🇩🇪', country: 'Germany', count: '120+' },
+            { flag: '🇬🇧', country: 'UK', count: '45+' },
+            { flag: '🇺🇸', country: 'USA', count: '40+' },
+            { flag: '🇨🇦', country: 'Canada', count: '35+' },
+            { flag: '🇦🇺', country: 'Australia', count: '30+' },
+            { flag: '🇳🇿', country: 'New Zealand', count: '30+' },
+            { flag: '🇪🇺', country: 'Europe', count: '40+' },
+          ].map((item) => (
+            <div
+              key={item.country}
+              className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm"
+            >
+              <span className="text-lg">{item.flag}</span>
+              <span className="text-white/80 text-sm font-['DM_Sans'] font-medium">{item.country}</span>
+              <span className="text-[#F5A623] text-sm font-['Space_Mono'] font-bold">{item.count}</span>
+            </div>
+          ))}
+        </motion.div>
 
         {/* Desktop Grid */}
         <motion.div

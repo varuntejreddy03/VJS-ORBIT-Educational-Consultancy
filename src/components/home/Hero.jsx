@@ -136,6 +136,16 @@ export default function Hero() {
           </span>
         </motion.div>
 
+        {/* VJS Tagline */}
+        <motion.p
+          className="text-[#F5A623] font-['Space_Mono'] text-sm sm:text-base tracking-[0.3em] uppercase mb-4"
+          initial={{ opacity: 0, letterSpacing: '0.5em' }}
+          animate={{ opacity: 1, letterSpacing: '0.3em' }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+        >
+          Vision &bull; Journey &bull; Success
+        </motion.p>
+
         {/* Heading — word-by-word stagger */}
         <motion.h1
           aria-label="Your Gateway to World-Class Education Abroad"

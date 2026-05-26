@@ -324,19 +324,21 @@ export default function Contact() {
       {/* Office Location Section */}
       <section className="bg-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            {...fadeInUp}
-            className="rounded-2xl overflow-hidden shadow-lg border border-gray-100 bg-[#F7F8FC] p-8 lg:p-12 text-center max-w-3xl mx-auto"
-          >
-            <div className="w-16 h-16 rounded-full bg-[#F5A623]/10 flex items-center justify-center mx-auto mb-6">
-              <MapPin className="text-[#F5A623] w-8 h-8" />
-            </div>
-            <h3 className="font-['Syne'] font-bold text-2xl text-[#1A1A2E] mb-4">Our Office Location</h3>
-            <p className="text-lg text-gray-700 leading-relaxed font-['DM_Sans']">
-              📍 Ramgampeta Cross, Near Ramgampeta X Cross Junction,<br />
-              Puthalapattu, Chittoor – 517124,<br />
-              Andhra Pradesh, India
-            </p>
+          <motion.div {...fadeInUp} className="text-center mb-8">
+            <h3 className="font-['Syne'] font-bold text-2xl text-[#1A1A2E] mb-2">Our Office Location</h3>
+            <p className="text-[#6B7280]">Ramgampeta Cross, Puthalapattu, Chittoor – 517124, AP, India</p>
+          </motion.div>
+          <motion.div {...fadeInUp} className="rounded-2xl overflow-hidden shadow-lg border border-gray-100">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d970.4793477530428!2d79.08462886952462!3d13.355412599187275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb2a11148d661b7%3A0x63e49f37c20cdca5!2sVJS%20Orbit!5e0!3m2!1sen!2sin!4v1779789310969!5m2!1sen!2sin"
+              width="100%"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="VJS Orbit Office Location"
+            />
           </motion.div>
         </div>
       </section>

@@ -1,23 +1,23 @@
 export const testimonials = [
   {
     id: 1,
-    name: 'Gundu Vinay Kumar',
+    name: 'Rahul Reddy',
     university: 'TU Munich, Germany',
     program: 'MSc Computer Science',
     rating: 5,
     quote: "VJS Abroad Consultancy made my dream of studying in Germany a reality. From APS certificate to visa — they handled everything perfectly. Now I'm studying tuition-free in Germany!",
-    initial: 'G',
+    initial: 'R',
     color: '#F5A623',
     country: '🇩🇪 Germany'
   },
   {
     id: 2,
-    name: 'Jagadeesh Yeddalapudi',
+    name: 'Karthik Naidu',
     university: 'RWTH Aachen, Germany',
     program: 'MSc Mechanical Engineering',
     rating: 5,
     quote: "The team at VJS guided me through every step — university selection, SOP writing, and visa prep. Their Germany expertise is unmatched. Highly recommend from Chittoor!",
-    initial: 'J',
+    initial: 'K',
     color: '#00C9A7',
     country: '🇩🇪 Germany'
   },
@@ -34,12 +34,12 @@ export const testimonials = [
   },
   {
     id: 4,
-    name: 'Sai Charan Yenugula',
+    name: 'Deepak Varma',
     university: 'University of East London, UK',
     program: 'MSc Data Science',
     rating: 5,
     quote: "Professional, knowledgeable, and always available. They simplified the entire UK application process and helped me secure my student visa without any stress.",
-    initial: 'S',
+    initial: 'D',
     color: '#00C9A7',
     country: '🇬🇧 United Kingdom'
   },

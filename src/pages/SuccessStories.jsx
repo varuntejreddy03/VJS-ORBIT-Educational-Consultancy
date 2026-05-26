@@ -9,12 +9,13 @@ import { testimonials } from '../data/testimonials'
 const fadeInUp = { initial: { opacity: 0, y: 30 }, whileInView: { opacity: 1, y: 0 }, viewport: { once: true }, transition: { duration: 0.6 } }
 
 const destinationStats = [
-  { flag: '🇬🇧', country: 'United Kingdom', students: 4, color: '#F5A623' },
-  { flag: '🇩🇪', country: 'Germany', students: 2, color: '#00C9A7' },
-  { flag: '🇨🇦', country: 'Canada', students: 1, color: '#F5A623' },
-  { flag: '🇦🇺', country: 'Australia', students: 1, color: '#00C9A7' },
-  { flag: '🇺🇸', country: 'United States', students: 1, color: '#F5A623' },
-  { flag: '🇪🇺', country: 'Europe', students: 1, color: '#00C9A7' },
+  { flag: '🇩🇪', country: 'Germany', students: 120, color: '#00C9A7' },
+  { flag: '🇬🇧', country: 'United Kingdom', students: 45, color: '#F5A623' },
+  { flag: '🇺🇸', country: 'United States', students: 40, color: '#00C9A7' },
+  { flag: '🇨🇦', country: 'Canada', students: 35, color: '#F5A623' },
+  { flag: '🇦🇺', country: 'Australia', students: 30, color: '#00C9A7' },
+  { flag: '🇳🇿', country: 'New Zealand', students: 30, color: '#F5A623' },
+  { flag: '🇪🇺', country: 'Europe', students: 40, color: '#00C9A7' },
 ]
 
 export default function SuccessStories() {
@@ -100,7 +101,7 @@ export default function SuccessStories() {
       <section className="py-20 lg:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading title="Where Our Students" highlight="Study" highlightColor="teal" subtitle="Countries where we've successfully placed students" />
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-4">
             {destinationStats.map((dest, i) => (
               <motion.div
                 key={dest.country}

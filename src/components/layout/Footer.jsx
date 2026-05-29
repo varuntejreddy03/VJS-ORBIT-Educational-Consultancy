@@ -178,7 +178,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-500">
-            © 2026 VJS Abroad Consultancy. All rights reserved.
+            © 2026 VJS Orbit Consultancy. All rights reserved.
           </p>
           <div className="flex items-center gap-6 text-sm text-gray-500">
             <a href="#" className="hover:text-gray-300 transition-colors">Privacy Policy</a>

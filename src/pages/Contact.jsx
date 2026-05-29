@@ -76,7 +76,7 @@ export default function Contact() {
     await new Promise(r => setTimeout(r, 1200))
     
     // Format the WhatsApp message with form details
-    const whatsappMessage = `Hello VJS Abroad Consultancy! 👋
+    const whatsappMessage = `Hello VJS Orbit Consultancy! 👋
 
 *New Contact Form Inquiry*
 ━━━━━━━━━━━━━━━━━━━━
@@ -148,7 +148,7 @@ export default function Contact() {
                     </p>
                     <div className="mb-8 flex justify-center">
                       <a
-                        href={`https://wa.me/4915560001143?text=${encodeURIComponent(`Hello VJS Abroad Consultancy! 👋
+                        href={`https://wa.me/4915560001143?text=${encodeURIComponent(`Hello VJS Orbit Consultancy! 👋
 
 *New Contact Form Inquiry*
 ━━━━━━━━━━━━━━━━━━━━
@@ -274,7 +274,7 @@ export default function Contact() {
 
               {/* WhatsApp */}
               <a
-                href="https://wa.me/4915560001143?text=Hi%20VJS%20Abroad!%20I%27m%20interested%20in%20abroad%20consultancy%20services."
+                href="https://wa.me/4915560001143?text=Hi%20VJS%20Orbit!%20I%27m%20interested%20in%20abroad%20consultancy%20services."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 bg-[#25D366] text-white rounded-2xl p-6 hover:bg-[#20bd5a] transition-colors group"

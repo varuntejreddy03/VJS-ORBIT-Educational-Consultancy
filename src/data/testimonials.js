@@ -5,7 +5,7 @@ export const testimonials = [
     university: 'TU Munich, Germany',
     program: 'MSc Computer Science',
     rating: 5,
-    quote: "VJS Abroad Consultancy made my dream of studying in Germany a reality. From APS certificate to visa — they handled everything perfectly. Now I'm studying tuition-free in Germany!",
+    quote: "VJS Orbit Consultancy made my dream of studying in Germany a reality. From APS certificate to visa — they handled everything perfectly. Now I'm studying tuition-free in Germany!",
     initial: 'R',
     color: '#F5A623',
     country: '🇩🇪 Germany'
@@ -49,7 +49,7 @@ export const testimonials = [
     university: 'University of East London, UK',
     program: 'MSc Computer Science',
     rating: 5,
-    quote: "Exceptional service from Chittoor to the UK. VJS Abroad Consultancy's guidance was invaluable throughout the entire journey.",
+    quote: "Exceptional service from Chittoor to the UK. VJS Orbit Consultancy's guidance was invaluable throughout the entire journey.",
     initial: 'R',
     color: '#F5A623',
     country: '🇬🇧 United Kingdom'
@@ -60,7 +60,7 @@ export const testimonials = [
     university: 'University of Toronto, Canada',
     program: 'MSc Computer Engineering',
     rating: 5,
-    quote: "VJS Abroad's scholarship guidance helped me secure significant funding for my studies in Canada. Their personalized approach sets them apart.",
+    quote: "VJS Orbit's scholarship guidance helped me secure significant funding for my studies in Canada. Their personalized approach sets them apart.",
     initial: 'A',
     color: '#00C9A7',
     country: '🇨🇦 Canada'

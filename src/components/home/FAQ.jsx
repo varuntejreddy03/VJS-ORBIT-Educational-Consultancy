@@ -64,7 +64,7 @@ export default function FAQ() {
           title="Frequently Asked"
           highlight="Questions"
           highlightColor="amber"
-          subtitle="Everything you need to know about your international journey with VJS Abroad Consultancy"
+          subtitle="Everything you need to know about your international journey with VJS Orbit Consultancy"
         />
 
         <motion.div

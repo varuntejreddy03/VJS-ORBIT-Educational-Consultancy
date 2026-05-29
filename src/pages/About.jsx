@@ -54,7 +54,7 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-[#6B7280] leading-relaxed">
                 <p>
-                  VJS Abroad Consultancy was built from friendship, dreams, and real-life experience.
+                  VJS Orbit Consultancy was built from friendship, dreams, and real-life experience.
                 </p>
                 <p>
                   We are three friends who started our journey together during our Diploma in Tirupati and continued through B.Tech, supporting each other like brothers while chasing a better future through education and hard work.
@@ -66,7 +66,7 @@ export default function About() {
                   After successfully completing two years of our Master's journey in Germany, we realized that many students have the talent and ambition to study abroad but often lack proper guidance and genuine support.
                 </p>
                 <p>
-                  That realization became the foundation of VJS Abroad Consultancy.
+                  That realization became the foundation of VJS Orbit Consultancy.
                 </p>
                 <p>
                   Today, our mission is to help students and professionals achieve their international education goals with honest guidance, practical support, and real experience from people who have personally lived the journey.

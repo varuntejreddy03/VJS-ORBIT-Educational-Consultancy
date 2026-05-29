@@ -122,7 +122,7 @@ export default function Germany() {
               <motion.div {...fadeInUp} className="bg-[#F7F8FC] rounded-2xl p-8 border border-gray-100 mb-8">
                 <h3 className="font-['Syne'] font-bold text-xl text-[#1A1A2E] mb-4">What is APS?</h3>
                 <p className="text-[#6B7280] leading-relaxed">
-                  APS (Akademische Prüfstelle) is a document verification certificate required by Indian students applying to German universities. It is not an exam — it is a process where you submit your academic documents to the German Embassy's verification center. VJS Abroad Consultancy provides complete end-to-end APS application support, document preparation, and appointment guidance.
+                  APS (Akademische Prüfstelle) is a document verification certificate required by Indian students applying to German universities. It is not an exam — it is a process where you submit your academic documents to the German Embassy's verification center. VJS Orbit Consultancy provides complete end-to-end APS application support, document preparation, and appointment guidance.
                 </p>
               </motion.div>
               <motion.div {...fadeInUp} className="bg-[#F7F8FC] rounded-2xl p-8 border border-gray-100">

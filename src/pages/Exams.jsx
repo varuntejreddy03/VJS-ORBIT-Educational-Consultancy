@@ -146,7 +146,7 @@ export default function Exams() {
             <h2 className="text-3xl sm:text-4xl font-['Syne'] font-bold text-white mb-4">
               Our <span className="text-gradient-teal">Coaching</span> Advantage
             </h2>
-            <p className="text-lg text-gray-400">What makes VJS Abroad Consultancy's test preparation different</p>
+            <p className="text-lg text-gray-400">What makes VJS Orbit Consultancy's test preparation different</p>
           </motion.div>
           <div className="bg-white/5 backdrop-blur-xl rounded-2xl p-8 border border-white/10">
             <div className="space-y-4">

@@ -36,7 +36,7 @@ export default function SuccessStories() {
             From India to the <span className="text-gradient-teal">World 🌍</span>
           </motion.h1>
           <motion.p {...fadeInUp} transition={{ delay: 0.2 }} className="text-xl text-gray-300 max-w-2xl mx-auto mb-10">
-            Real students, real results — hear from those who achieved their global dreams with VJS Abroad Consultancy
+            Real students, real results — hear from those who achieved their global dreams with VJS Orbit Consultancy
           </motion.p>
           <motion.div {...fadeInUp} transition={{ delay: 0.3 }} className="flex flex-wrap items-center justify-center gap-6">
             {[
@@ -133,7 +133,7 @@ export default function SuccessStories() {
             Ready to Write Your Own Success Story?
           </motion.h2>
           <motion.p {...fadeInUp} transition={{ delay: 0.1 }} className="text-lg text-gray-300 mb-8">
-            Join 500+ students who've achieved their dreams with VJS Abroad Consultancy
+            Join 500+ students who've achieved their dreams with VJS Orbit Consultancy
           </motion.p>
           <motion.div {...fadeInUp} transition={{ delay: 0.2 }}>
             <Button to="/contact" variant="primary" size="lg">Book Free Consultation</Button>

@@ -174,7 +174,7 @@ export default function Hero() {
           animate="visible"
           custom={0.9}
         >
-          From Chittoor to the Globe — Study abroad, visa assistance,
+          From India to the Globe — Study abroad, visa assistance,
           accommodation guidance, and career support for your international journey.
         </motion.p>
 

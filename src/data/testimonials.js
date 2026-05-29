@@ -16,7 +16,7 @@ export const testimonials = [
     university: 'RWTH Aachen, Germany',
     program: 'MSc Mechanical Engineering',
     rating: 5,
-    quote: "The team at VJS guided me through every step — university selection, SOP writing, and visa prep. Their Germany expertise is unmatched. Highly recommend from Chittoor!",
+    quote: "The team at VJS guided me through every step — university selection, SOP writing, and visa prep. Their Germany expertise is unmatched. Highly recommend from India!",
     initial: 'K',
     color: '#00C9A7',
     country: '🇩🇪 Germany'
@@ -49,7 +49,7 @@ export const testimonials = [
     university: 'University of East London, UK',
     program: 'MSc Computer Science',
     rating: 5,
-    quote: "Exceptional service from Chittoor to the UK. VJS Orbit Consultancy's guidance was invaluable throughout the entire journey.",
+    quote: "Exceptional service from India to the UK. VJS Orbit Consultancy's guidance was invaluable throughout the entire journey.",
     initial: 'R',
     color: '#F5A623',
     country: '🇬🇧 United Kingdom'

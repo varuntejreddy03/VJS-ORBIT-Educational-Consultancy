@@ -14,7 +14,7 @@ const contactInfo = [
     color: 'amber',
     items: [
       { flag: '🇩🇪', text: '+49 15560001143 (Primary)', href: 'tel:+4915560001143' },
-      { flag: '🇮🇳', text: '+91 9347988545', href: 'tel:+919347988545' },
+      { flag: '🇮🇳', text: '+91 6302112623', href: 'tel:+916302112623' },
       { flag: '🇩🇪', text: '+49 15511015290', href: 'tel:+4915511015290' },
       { flag: '🇩🇪', text: '+49 15510861137', href: 'tel:+4915510861137' },
     ]

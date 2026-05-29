@@ -140,8 +140,8 @@ export default function Footer() {
                   <a href="tel:+4915560001143" className="text-gray-400 hover:text-[#00C9A7] transition-colors block font-semibold text-white">
                     🇩🇪 +49 15560001143 (Primary — Germany)
                   </a>
-                  <a href="tel:+919347988545" className="text-gray-400 hover:text-[#00C9A7] transition-colors block">
-                    🇮🇳 +91 9347988545 (India)
+                  <a href="tel:+916302112623" className="text-gray-400 hover:text-[#00C9A7] transition-colors block">
+                    🇮🇳 +91 6302112623 (India)
                   </a>
                   <a href="tel:+4915511015290" className="text-gray-400 hover:text-[#00C9A7] transition-colors block">
                     🇩🇪 +49 15511015290 (Germany)

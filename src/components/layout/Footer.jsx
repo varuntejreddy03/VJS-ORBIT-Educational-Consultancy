@@ -41,7 +41,7 @@ export default function Footer() {
                     transform="rotate(60 20 20)" />
                 </svg>
               </div>
-              <span className="text-white font-[Syne] font-bold text-xl tracking-wider">VJS ABROAD</span>
+              <span className="text-white font-[Syne] font-bold text-xl tracking-wider">VJS ORBIT</span>
             </Link>
             <p className="text-[#F5A623] font-[Syne] font-semibold text-sm mb-2">
               Your Global Journey Begins Here 🌍

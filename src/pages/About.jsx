@@ -35,7 +35,7 @@ export default function About() {
             <span className="text-[#F5A623]">About</span>
           </motion.div>
           <motion.h1 {...fadeInUp} transition={{ duration: 0.6, delay: 0.1 }} className="text-4xl sm:text-5xl lg:text-6xl font-['Syne'] font-bold text-white mb-6">
-            About <span className="text-gradient-amber">VJS Abroad</span>
+            About <span className="text-gradient-amber">VJS Orbit</span>
           </motion.h1>
           <motion.p {...fadeInUp} transition={{ duration: 0.6, delay: 0.2 }} className="text-xl text-gray-300 max-w-2xl mx-auto">
             Empowering students and professionals worldwide since 2024 with personalized guidance and comprehensive abroad consultancy support
@@ -50,17 +50,26 @@ export default function About() {
             <motion.div {...fadeInUp}>
               <span className="inline-block px-4 py-1.5 bg-[#F5A623]/10 text-[#F5A623] rounded-full text-sm font-semibold mb-6">Our Story</span>
               <h2 className="text-3xl sm:text-4xl font-['Syne'] font-bold text-[#1A1A2E] mb-6">
-                From a Vision in <span className="text-gradient-teal">Chittoor</span> to Global Impact
+                From a Vision in <span className="text-gradient-teal">India</span> to Global Impact
               </h2>
               <div className="space-y-4 text-[#6B7280] leading-relaxed">
                 <p>
-                  Founded in 2024, VJS Abroad Consultancy was born from a simple yet powerful belief: every ambitious student and professional deserves access to world-class education, career opportunities, and relocation support abroad, regardless of their background or location.
+                  VJS Abroad Consultancy was built from friendship, dreams, and real-life experience.
                 </p>
                 <p>
-                  Starting from our roots in Puthalapattu, Chittoor, Andhra Pradesh, we set out with a laser focus on Germany — offering support not just for tuition-free education at world-renowned universities, but also for career relocation, visa assistance, and accommodation search. Our deep expertise in the German education system, APS process, and student visa requirements quickly set us apart.
+                  We are three friends who started our journey together during our Diploma in Tirupati and continued through B.Tech, supporting each other like brothers while chasing a better future through education and hard work.
                 </p>
                 <p>
-                  Today, our reach extends across the globe — helping individuals secure university admissions, work opportunities, visa approvals, and comfortable accommodations in the UK, USA, Canada, Australia, and Europe. Yet, Germany remains at the heart of everything we do.
+                  After graduation, we gained industry experience and later moved to Germany to pursue our Master's degrees. Like many international students, we faced challenges with applications, APS, visas, accommodation, finances, and adapting to a new country. Those experiences taught us the reality of studying abroad.
+                </p>
+                <p>
+                  After successfully completing two years of our Master's journey in Germany, we realized that many students have the talent and ambition to study abroad but often lack proper guidance and genuine support.
+                </p>
+                <p>
+                  That realization became the foundation of VJS Abroad Consultancy.
+                </p>
+                <p>
+                  Today, our mission is to help students and professionals achieve their international education goals with honest guidance, practical support, and real experience from people who have personally lived the journey.
                 </p>
               </div>
             </motion.div>

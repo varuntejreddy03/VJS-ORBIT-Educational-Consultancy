@@ -77,7 +77,7 @@ export default function Navbar() {
             </div>
             <div className="flex flex-col">
               <span className="text-white font-[Syne] font-bold text-xl tracking-wider group-hover:text-[#F5A623] transition-colors">
-                VJS ABROAD
+                VJS ORBIT
               </span>
               <span className="text-[#9CA3AF] text-[10px] tracking-[0.2em] uppercase font-medium hidden sm:block">
                 Abroad Consultancy

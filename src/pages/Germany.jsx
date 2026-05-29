@@ -16,12 +16,16 @@ const whyGermany = [
 ]
 
 const apsSteps = [
-  { step: 1, title: 'Create APS Account', desc: 'Register on the APS India website and create your application account' },
-  { step: 2, title: 'Gather Documents', desc: 'Collect all required academic documents, transcripts, and certificates' },
-  { step: 3, title: 'Submit Application', desc: 'Upload documents and pay the application fee (currently ₹18,000)' },
-  { step: 4, title: 'Prepare for Interview', desc: 'Study your academic subjects thoroughly — questions are based on your degree' },
-  { step: 5, title: 'Attend APS Interview', desc: '20-30 minute interview testing your academic knowledge at APS Delhi/Mumbai' },
-  { step: 6, title: 'Receive Certificate', desc: 'Get your APS certificate within 4-8 weeks — required for German university admission' },
+  { step: 1, title: 'Check APS Eligibility', desc: 'Verify if you need an APS certificate based on your nationality and academic background' },
+  { step: 2, title: 'Collect Required Documents', desc: 'Gather all academic certificates, transcripts, mark sheets, and supporting documents' },
+  { step: 3, title: 'Prepare APS Application', desc: 'Fill out the online application form on the APS India portal with accurate details' },
+  { step: 4, title: 'Review & Verify Documents', desc: 'Cross-check all documents for completeness, accuracy, and proper attestation' },
+  { step: 5, title: 'Pay APS Fee', desc: 'Complete the payment of the APS processing fee (currently ₹18,000)' },
+  { step: 6, title: 'Submit Application', desc: 'Submit your complete application package to the APS office in New Delhi' },
+  { step: 7, title: 'Track APS Status', desc: 'Monitor your application status online and respond to any queries promptly' },
+  { step: 8, title: 'Receive APS Certificate', desc: 'Get your verified APS certificate within 4-8 weeks of successful processing' },
+  { step: 9, title: 'Apply to Universities', desc: 'Use your APS certificate to apply to German universities via uni-assist or directly' },
+  { step: 10, title: 'Proceed with Student Visa', desc: 'With university admission and APS in hand, apply for your German student visa' },
 ]
 
 const livingCosts = [
